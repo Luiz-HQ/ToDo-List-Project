@@ -22,6 +22,9 @@ module.exports = {
         '98': '430px',
         '100': '500px'
       },
+      colors: {
+        customGray: '#E8EAEE',
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

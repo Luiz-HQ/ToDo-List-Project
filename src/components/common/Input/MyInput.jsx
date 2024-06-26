@@ -1,7 +1,8 @@
 import { Input } from '../../ui/input';
 
-export default function MyInput({ type, placeholder }) {
+// eslint-disable-next-line react/prop-types
+export default function MyInput({ type, placeholder, className }) {
     return (
-        <Input type={type} placeholder={placeholder} className="rounded-3xl"></Input>
+        <Input type={type} placeholder={placeholder} className={className}></Input>
     )
 }
